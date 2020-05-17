@@ -1,4 +1,4 @@
-# pj-nyegs
+# README
 
 GolangでWEBサービスを作る独学用
 
