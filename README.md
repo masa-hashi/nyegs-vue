@@ -50,8 +50,8 @@ GolangでWEBサービスを作る独学用
 
     「Hello, World!」が表示されることを確認。
 
-## 止め方
-
+    以下のコマンドでdocker停止。
+    
     ```
     # docker-compose stop
     ```
