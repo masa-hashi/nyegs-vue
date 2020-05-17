@@ -29,10 +29,12 @@ GolangでWEBサービスを作る独学用
     ```
 
 1. プロジェクトディレクトリに移動
-    
+ 
     ```
     # cd pj-nyegs
     ```
+
+     (以下指定がない場合はこのpj-nyegsディレクトリでコマンド実行)
 
 1. docker build & バックグラウンド起動
 
@@ -46,4 +48,12 @@ GolangでWEBサービスを作る独学用
     # docker-compose exec app go run main.go
     ```
 
-ひとまず以上
+    「Hello, World!」が表示されることを確認。
+
+## 止め方
+
+    ```
+    # docker-compose stop
+    ```
+
+ひとまず、以上。先は長いぞ。
