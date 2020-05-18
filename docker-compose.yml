@@ -5,3 +5,6 @@ services:
     tty: true # コンテナの起動永続化
     volumes:
       - .:/go/src/work # マウントディレクトリ指定
+    ports:
+      - "8080:8080"
+      
