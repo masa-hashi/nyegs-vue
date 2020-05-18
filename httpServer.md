@@ -1,3 +1,10 @@
+# httpServerとして動かす
+
+とりあえずポート8080と、8080/helloが機能するようにする。
+
+## goを以下のコードとする。
+
+```go
 package main
 
 import(
@@ -30,3 +37,16 @@ func main() {
     log.Println(httpServer.ListenAndServe())
 
 }
+```
+
+## dockerから実行
+
+```
+# docker-compose exec app go run main.go
+```
+
+
+## 確認
+以下で確認する。
+- http://localhost:8080
+- http://localhost:8080/hello
