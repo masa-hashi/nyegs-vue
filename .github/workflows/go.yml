@@ -16,7 +16,7 @@ jobs:
     - name: Set up Go latest
       uses: actions/setup-go@v2
       with:
-        go-version: ^latest
+        go-version: latest
       id: go
 
     - name: Check out code into the Go module directory
