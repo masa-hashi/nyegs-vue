@@ -40,7 +40,7 @@ jobs:
       run: |
         data=$(cat <<EOF
         {
-          "channel": "nyegs",
+          "channel": "C011DTDCZP0",
           "username": "github-actions",
           "text": "Success"
         }
