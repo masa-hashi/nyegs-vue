@@ -10,8 +10,7 @@ func TestHelloJapanease(t *testing.T) {
   if result != expext {
     t.Error("\nactual： ", result, "\nexpected： ", expext)
   }
-
-  t.Log("TestHello End.")
+  //t.Log("TestHello End.")
 }
 
 func TestHelloEnglish(t *testing.T) {
@@ -20,16 +19,14 @@ func TestHelloEnglish(t *testing.T) {
   if result != expext {
     t.Error("\nactual： ", result, "\nexpected： ", expext)
   }
-
-  t.Log("TestHello End.")
+  //t.Log("TestHello End.")
 }
 
-func TestHello(t *testing.T) {
+func TestHelloBlank(t *testing.T) {
   result := GetHello("")
-  expext := "Hello, World!"
+  expext := " Hello, World!"
   if result != expext {
     t.Error("\nactual： ", result, "\nexpected： ", expext)
   }
-
-  t.Log("TestHello End.")
+  //t.Log("TestHello End.")
 }
