@@ -8,8 +8,10 @@ GolangでWEBサービスを作る学習用
 * Dockerで環境構築（app/web/db）
 * GolangでのTESTの作り方
 * CI/CDの仕組み周り
+* GoのWEBフレームワークを導入
+* 何かWEBサービスを作る
 * フロント/バックの繋ぎこみ（別リポジトリを想定）
 
 [Wiki](https://github.com/masa-hashi/pj-nyegs/wiki)に色々まとめています。
-現在PullRequest作成済みのブランチへのPushとmasterへのmargeでGithubActionが動作します。
-ブランチ作成のルールは、hashi/branch1 みたいな感じでお願います。
+現在masterへのmargeでGithubActionsのWorkflowが動作します。
+ブランチ作成のルールは、hashi/branch1 みたいな感じでぱっと見てわかる名前でお願います。
