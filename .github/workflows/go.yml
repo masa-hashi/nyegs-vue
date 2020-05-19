@@ -41,7 +41,7 @@ jobs:
         data=$(cat <<EOF
         {
           "channel": "C011DTDCZP0",
-          "username": "github-actions",
+          "username": "GA",
           "text": "Success"
         }
         EOF
