@@ -26,7 +26,7 @@ func TestHelloEnglish(t *testing.T) {
 
 func TestHello(t *testing.T) {
   result := GetHello("")
-  expext := "Hello! Hello, World!"
+  expext := "Hello, World!"
   if result != expext {
     t.Error("\nactual： ", result, "\nexpected： ", expext)
   }
