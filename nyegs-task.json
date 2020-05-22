@@ -9,7 +9,7 @@
           "logDriver": "awslogs",
           "secretOptions": null,
           "options": {
-            "awslogs-group": "/ecs/nyges-task",
+            "awslogs-group": "/ecs/nyegs-task",
             "awslogs-region": "ap-northeast-1",
             "awslogs-stream-prefix": "ecs"
           }
@@ -58,8 +58,8 @@
       "EC2",
       "FARGATE"
     ],
-    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:985868386041:task-definition/nyges-task:2",
-    "family": "nyges-task",
+    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:985868386041:task-definition/nyegs-task:2",
+    "family": "nyegs-task",
     "requiresAttributes": [
       {
         "targetId": null,
