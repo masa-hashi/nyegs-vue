@@ -67,7 +67,7 @@ jobs:
       id: task-def
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
-        task-definition: nyges-task.json
+        task-definition: nyegs-task.json
         container-name: nyegs-container
         image: ${{ steps.build-image.outputs.image }}
 
