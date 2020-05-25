@@ -5,7 +5,7 @@ services:
     build: ./docker/golang
     tty: true # コンテナの起動永続化
     ports:
-      - "8080:80"
+      - "8080:8080"
     volumes:
       - .:/go/src/work # マウントディレクトリ指定
     command: go run httpServer.go
