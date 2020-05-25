@@ -38,7 +38,7 @@ jobs:
       run: |
         data=$(cat <<EOF
         {
-          "channel": "C011DTDCZP0",
+          "channel": "C01412D7U30",
           "username": "ga",
           "text": "SuccessしたGithubActinosのWorkflowがあります"
         }

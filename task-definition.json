@@ -1,10 +1,10 @@
 {
-  "family": "golang",
+  "family": "nginx",
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
-      "name": "golang",
-      "image": "golang",
+      "name": "nginx",
+      "image": "nginx",
       "portMappings": [
         {
           "containerPort": 8080,
