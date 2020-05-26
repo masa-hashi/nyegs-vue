@@ -1,11 +1,12 @@
 package main
 
 import (
-    "fmt"
-    "./hello"
+	"fmt"
+
+	"./api/hello"
 )
-  
+
 func main() {
-  s := hello.GetHello("HI! Guest! ")
-  fmt.Println(s)
+	s := hello.GetHello("HI! Guest! ")
+	fmt.Println(s)
 }
