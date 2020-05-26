@@ -1,0 +1,44 @@
+hash: 30c9428382537f55dec238ace9273a89013cf165f42b433998894ec3192bbbe8
+updated: 2020-05-26T23:04:00.121269+09:00
+imports:
+- name: github.com/labstack/echo
+  version: 6e7c7cea03c4ac9d551c98d92fc4168888b8e2d5
+- name: github.com/labstack/gommon
+  version: 4919956f6fb227b548f004da27c7c6b20fba499f
+  subpackages:
+  - color
+  - log
+- name: github.com/mattn/go-colorable
+  version: f1b5a0ed4603826971e6d07195710bbc9ed74df6
+- name: github.com/mattn/go-isatty
+  version: cb30d6282491c185f77d9bec5d25de1bb61a06bc
+- name: github.com/valyala/bytebufferpool
+  version: cdfbe9377474227bb42120c1e22fd4433e7f69bf
+- name: github.com/valyala/fasttemplate
+  version: f2edffee060be376160f92203356c93e83b01352
+- name: golang.org/x/crypto
+  version: 06a226fb4e3765ef3f48aa2852b401bc7b98e981
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/net
+  version: 0ba52f642ac2f9371a88bfdde41f4b4e195a37c0
+  subpackages:
+  - http/httpguts
+  - http2
+  - http2/h2c
+  - http2/hpack
+  - idna
+- name: golang.org/x/sys
+  version: 05986578812163b26672dabd9b425240ae2bb0ad
+  subpackages:
+  - internal/unsafeheader
+  - unix
+- name: golang.org/x/text
+  version: 81608d7e9c6863c922f599e4ff1329a685218c0d
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+testImports: []

@@ -1,0 +1,4 @@
+package: .
+import:
+- package: github.com/labstack/echo
+  version: ~4.1.16

@@ -1,6 +1,7 @@
 version: '3' # composeファイルのバーション指定
 services:
   # service名
+
   app:
     build: ./docker/golang
     tty: true # コンテナの起動永続化
@@ -8,7 +9,7 @@ services:
       - "8080:8080"
     volumes:
       - .:/go/src/work # マウントディレクトリ指定
-    command: go run httpServer.go
+    command: go run main.go
   db:
     image: mysql:5.7
     container_name: mysql_host
@@ -26,7 +27,6 @@ services:
     ports:
     - 3306:3306
 
-  # phpMyAdmin
   phpmyadmin:
     container_name: phpmyadmin
     image: phpmyadmin/phpmyadmin

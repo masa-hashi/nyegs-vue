@@ -8,7 +8,9 @@ GolangでWEBサービスを作る学習用
 * Dockerで環境構築（app/web/db）
 * GolangでのTESTの作り方
 * CI/CDの仕組み周り
-* GoのWEBフレームワークを導入
+* GoのWEBフレームワーク(echo)を導入
+
+ 　→　[ディレクトリ構成の参考情報](https://github.com/eurie-inc/echo-sample)
 * 何かWEBサービスを作る
 * フロント/バックの繋ぎこみ（別リポジトリを想定）
 
