@@ -60,9 +60,6 @@
     "placementConstraints": [],
     "memory": "512",
     "taskRoleArn": null,
-    "compatibilities": [
-      "FARGATE"
-    ],
     "family": "first-run-task-definition",
     "pidMode": null,
     "requiresCompatibilities": [
